@@ -309,9 +309,13 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 22px;
   text-align: left;
+}
+
+#about .about-descr span {
+ font-weight: bold;
 }
 
 #about .about-descr .separator {
