@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Ni (Nydia) Guo, a happy coder!", "also a full stack Web Developer."],
+      strings: ["Ni Guo (Nydia)", "a happy coder!"],
       typeSpeed: 100,
       loop: true,
     });
