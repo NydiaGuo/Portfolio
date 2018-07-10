@@ -241,7 +241,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg1.3.png") repeat scroll center center / cover;
+  background: url("../images/home-bg1.2.png") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -433,14 +433,14 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+/* #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-}
+} */
 
 #portfolio .portfolio-container {
   display: inline-block;
