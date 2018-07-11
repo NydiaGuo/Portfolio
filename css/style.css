@@ -1,11 +1,4 @@
 
-/*
-  Theme Name: Folio
-  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
-
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
@@ -281,16 +274,17 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .header-content .list-social li .icon-folder {
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -329,6 +323,12 @@ nav ul li a {
   margin-bottom: 0;
   text-align: left;
 }
+
+#about .about-descr img {
+  width: 28px;
+  height: 25px;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*   Services
@@ -433,19 +433,18 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-/* #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-} */
-
 #portfolio .portfolio-container {
   display: inline-block;
   margin-bottom: 50px;
   width: 100%;
+}
+
+.portfolio-container span {
+  font-weight: bold;
+}
+
+.portfolio-container p {
+  text-align: left;
 }
 
 .portfolio-thumbnail {
@@ -457,6 +456,7 @@ nav ul li a {
   max-width: 100%;
   margin-bottom: 10px;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
