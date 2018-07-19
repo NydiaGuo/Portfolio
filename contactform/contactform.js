@@ -144,11 +144,12 @@ var message = "";
     return false;
   });
 
-  //Create Firebase event for ading employer to the database
-  database.ref().on("child_added", function(childSnapshot) {
-    console.log(childSnapshot.val());
-  }, function(errs) {
-    console.log("Erros handled: " + errs);
-  })
+  //Create Firebase event for adding employer to the database
+  // database.ref().on("child_added", function(childSnapshot) {
+  //   // console.log(childSnapshot.val());
+  //   return;
+  // }, function(errs) {
+  //   console.log("Erros handled: " + errs);
+  // })
   
 });
